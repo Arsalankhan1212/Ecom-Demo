@@ -1,0 +1,58 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Qaaren" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="Theme.Qaaren" parent="Base.Theme.Qaaren" />
+
+    <!--Bottom Navigation bar Active indicator to transparent-->
+    <style name="BottomBarIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/color_menu_indicator</item>
+    </style>
+
+    <!--bottom navigation view text size-->
+    <style name="BottomNavigationViewText" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">@dimen/_9ssp</item>
+        <item name="fontFamily">@font/font_manrope_medium</item>
+    </style>
+
+    <style name="BottomNavigationViewText.Active" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="fontFamily">@font/font_manrope_regular</item>
+    </style>
+
+    <!--changing rating bar color-->
+    <style name="RatingBarStyle" parent="Theme.MaterialComponents">
+        <item name="colorControlNormal">@color/color_rating_bar</item>
+        <item name="colorControlActivated">@color/color_rating</item>
+    </style>
+
+
+    <!--tab layout text appearance-->
+    <style name="tabLayoutTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="fontFamily">@font/font_manrope_medium</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+   <!-- slider label background and text color-->
+    <style name="sliderLabelStyle" parent="Widget.MaterialComponents.Tooltip">
+    <item name="backgroundTint">@color/color_dark_blue</item>
+        <item name="android:textColor">@color/color_white_only</item>
+    </style>
+
+    <!--sheapable circular image view-->
+    <style name="roundedImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+
+    <style name="roundedCorner">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">6%</item>
+    </style>
+</resources>

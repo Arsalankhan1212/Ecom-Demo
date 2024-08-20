@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.fragments.CartFragment">
+
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/str_cart"
+        android:textSize="@dimen/_14ssp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/font_manrope_bold"
+        android:textColor="@color/black"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/imgClearCart"
+        app:layout_constraintBottom_toBottomOf="@id/imgClearCart"
+        app:layout_constraintEnd_toStartOf="@id/imgClearCart"
+        />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imgClearCart"
+        android:layout_width="@dimen/_28sdp"
+        android:layout_height="@dimen/_28sdp"
+        android:src="@drawable/ic_delete_"
+        app:tint="@color/color_btn_orange"
+        android:padding="@dimen/_4sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="@dimen/_12sdp"
+        android:background="@drawable/bg_icon"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvCart"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imgClearCart"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvAmountLabel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/str_amount_price"
+        android:textColor="@color/black"
+        android:fontFamily="@font/font_manrope_medium"
+        android:textSize="@dimen/_12ssp"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginEnd="@dimen/_6sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btnCheckOut"
+       app:layout_constraintBottom_toTopOf="@id/tvAmount"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvAmount"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="$0"
+        android:textColor="@color/black"
+        android:fontFamily="@font/font_manrope_bold"
+        android:textSize="@dimen/_18ssp"
+        app:layout_constraintEnd_toStartOf="@id/btnCheckOut"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginEnd="@dimen/_6sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnCheckOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:backgroundTint="@color/color_btn_orange"
+        app:cornerRadius="@dimen/_4sdp"
+        android:text="@string/str_check_out"
+        app:icon="@drawable/ic_check_green"
+        android:layout_marginEnd="@dimen/_12sdp"
+        app:layout_constraintBottom_toBottomOf="@id/tvAmount"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tvAmountLabel"/>
+    <!-- layout cart is empty -->
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/layoutEmptyCart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/imgError"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="@dimen/_120sdp"
+            android:src="@drawable/ic_no_record"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center"
+            android:contentDescription="@string/app_name"/>
+
+        <TextView
+            android:id="@+id/tvErrorMsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_cart_is_empty"
+            android:textSize="@dimen/_14ssp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/font_manrope_medium"
+            android:textColor="@color/black"
+            android:gravity="center"
+            />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

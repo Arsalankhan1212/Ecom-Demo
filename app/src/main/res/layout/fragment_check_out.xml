@@ -1,0 +1,302 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_12sdp">
+
+    <!-- Header -->
+    <TextView
+        android:id="@+id/tvCheckoutTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_checkout"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="center"/>
+
+    <!-- Sign In or Checkout as Guest -->
+    <TextView
+        android:id="@+id/tvSignInPrompt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Already have an account? Sign In"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"
+        app:layout_constraintTop_toBottomOf="@+id/tvCheckoutTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="center"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/tvCheckoutAsGuest"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Or checkout as guest"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"
+        app:layout_constraintTop_toBottomOf="@+id/tvSignInPrompt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="center"
+        android:layout_marginTop="4dp"
+        android:paddingBottom="16dp"/>
+
+    <!-- Shipping Section -->
+    <LinearLayout
+        android:id="@+id/llShipping"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/bg_rounded"
+        android:padding="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/tvCheckoutAsGuest"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="16dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imgShipping"
+            android:layout_width="@dimen/_24sdp"
+            android:layout_height="@dimen/_24sdp"
+            android:src="@drawable/ic_shipping"
+            android:layout_gravity="center_vertical"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="16dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tvShippingTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_shipping"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/tvShippingAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_add_shipping_address"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnAddShipping"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_add"
+            app:backgroundTint="@color/black"
+            app:cornerRadius="@dimen/_6sdp"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+
+    <!-- Payment Section -->
+    <LinearLayout
+        android:id="@+id/llPayment"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/bg_rounded"
+        android:padding="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/llShipping"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="16dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imgPayment"
+            android:layout_width="@dimen/_24sdp"
+            android:layout_height="@dimen/_24sdp"
+            android:src="@drawable/ic_payment"
+            android:layout_gravity="center_vertical"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="16dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tvPaymentTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_payment"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/tvPaymentInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_add_payment_info"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnAddPayment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_add"
+            app:backgroundTint="@color/black"
+            app:cornerRadius="@dimen/_6sdp"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+
+
+    <!-- Summary Section -->
+    <LinearLayout
+        android:id="@+id/llSummary"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bg_rounded"
+        android:padding="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/llPayment"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:id="@+id/tvSummaryTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_summary"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/tvSubtotalLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/str_subtotal"
+                android:layout_weight="1"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/tvSubtotalValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$188.97"
+                android:textColor="@android:color/black"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/tvShippingLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/str_shipping"
+                android:layout_weight="1"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/tvShippingValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_free"
+                android:textColor="@android:color/holo_green_dark"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/tvTaxLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/str_tax"
+                android:layout_weight="1"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/tvTaxValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$19.97"
+                android:textColor="@android:color/black"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/tvTotalLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/str_total"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/tvTotalValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$185.95"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnPayNow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/str_pay_now"
+        app:backgroundTint="@color/black"
+        app:cornerRadius="@dimen/_4sdp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

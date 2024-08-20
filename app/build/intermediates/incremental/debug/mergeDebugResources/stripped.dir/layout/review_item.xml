@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="@dimen/_3sdp"
+   android:layout_marginHorizontal="@dimen/_4sdp">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/img_profile"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_profile"
+        android:translationZ="@dimen/_2sdp"
+        android:layout_marginEnd="@dimen/_minus20sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_minus10sdp"
+        app:layout_constraintBottom_toTopOf="@id/cardView"
+        app:layout_constraintTop_toTopOf="@id/cardView"
+        app:layout_constraintStart_toStartOf="@id/cardView"
+        app:layout_constraintEnd_toStartOf="@id/cardView"
+        app:shapeAppearanceOverlay="@style/roundedImageView" />
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_20sdp"
+        app:cardCornerRadius="@dimen/_4sdp"
+        app:strokeWidth="0dp"
+        app:cardElevation="@dimen/_1sdp"
+        app:cardBackgroundColor="@color/color_white_dark_gray"
+        android:layout_marginTop="@dimen/_minus8sdp"
+        android:layout_marginEnd="@dimen/_3sdp"
+        android:layout_marginBottom="@dimen/_6sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_profile">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="@dimen/_12sdp"
+            android:layout_marginHorizontal="@dimen/_8sdp">
+
+            <TextView
+                android:id="@+id/tvUserName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:fontFamily="@font/font_manrope_bold"
+                android:text="Helena Moore"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12ssp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <RatingBar
+                android:id="@+id/userRating"
+                style="@style/Widget.AppCompat.RatingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:rating="4"
+                android:theme="@style/RatingBarStyle"
+                app:layout_constraintEnd_toStartOf="@id/tvReviewDate"
+                app:layout_constraintStart_toStartOf="@+id/tvUserName"
+                app:layout_constraintTop_toBottomOf="@+id/tvUserName" />
+
+            <TextView
+                android:id="@+id/tvReviewDate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="12-12-2023"
+                android:textSize="@dimen/_10ssp"
+                android:gravity="end"
+                android:textColor="@color/color_dark_gray_white"
+                android:fontFamily="@font/font_manrope_regular"
+                android:layout_marginStart="@dimen/_5sdp"
+                app:layout_constraintStart_toEndOf="@id/userRating"
+                app:layout_constraintBottom_toBottomOf="@+id/userRating"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/userRating" />
+
+            <TextView
+                android:id="@+id/tvReviewMessage"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:text="@string/str_add_a_review"
+                android:textAlignment="textStart"
+                android:textSize="@dimen/_12ssp"
+                android:fontFamily="@font/font_manrope_regular"
+                android:textColor="@color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@id/userRating"
+                app:layout_constraintTop_toBottomOf="@id/userRating" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

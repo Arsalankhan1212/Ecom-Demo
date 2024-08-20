@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/_138sdp"
+    android:layout_height="@dimen/_226sdp"
+    android:layout_marginEnd="@dimen/_8sdp"
+    android:layout_marginStart="@dimen/_2sdp"
+    android:layout_marginVertical="@dimen/_6sdp"
+    app:cardBackgroundColor="@color/color_product_item"
+    app:strokeWidth="0dp"
+   app:cardElevation="@dimen/_2sdp"
+    app:cardCornerRadius="@dimen/_6sdp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/imgProduct"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_140sdp"
+            android:contentDescription="@string/str_product_image"
+            android:scaleType="centerCrop"
+            android:src="@drawable/temp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!--badge-->
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvProductBadge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_8sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/bg_badge"
+            android:fontFamily="@font/font_manrope_medium"
+            android:paddingHorizontal="@dimen/_10sdp"
+            android:paddingVertical="@dimen/_3sdp"
+            android:text="30%"
+            android:textColor="@color/color_white_only"
+            android:textSize="@dimen/_9ssp"
+            app:layout_constraintVertical_bias="0"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="@id/imgProduct"/>
+
+
+        <androidx.appcompat.widget.AppCompatRatingBar
+            android:id="@+id/ratingBar"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_12sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:numStars="5"
+            android:rating="4"
+            android:theme="@style/RatingBarStyle"
+            app:layout_constraintEnd_toStartOf="@id/tv_total_reviews"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imgProduct" />
+
+        <TextView
+            android:id="@+id/tv_total_reviews"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_4sdp"
+            android:fontFamily="@font/font_manrope_medium"
+            android:text="(40)"
+            android:textColor="@color/color_dark_gray_light_gray"
+            android:textSize="@dimen/_9ssp"
+            app:layout_constraintBottom_toBottomOf="@id/ratingBar"
+            app:layout_constraintEnd_toStartOf="@id/imgCart"
+            app:layout_constraintStart_toEndOf="@id/ratingBar"
+            app:layout_constraintTop_toTopOf="@id/ratingBar" />
+
+        <TextView
+            android:id="@+id/tvProductName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_12sdp"
+            android:layout_marginTop="@dimen/_6sdp"
+            android:fontFamily="@font/font_manrope_bold"
+            android:text="@string/str_temp_title"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:textColor="@color/color_black_only"
+            android:textSize="@dimen/_12ssp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ratingBar"
+           />
+
+        <TextView
+            android:id="@+id/tvPriceTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_12sdp"
+            android:layout_marginBottom="@dimen/_8sdp"
+            android:fontFamily="@font/font_manrope_medium"
+            android:text="@string/str_price"
+            android:layout_marginTop="@dimen/_6sdp"
+            android:textColor="@color/color_dark_blue"
+            android:textSize="@dimen/_10ssp"
+            app:layout_constraintVertical_bias="1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvProductName" />
+
+        <TextView
+            android:id="@+id/tvPriceValue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_4sdp"
+            android:fontFamily="@font/font_manrope_medium"
+            android:text="@string/str_temp_price"
+            android:textColor="@color/color_dark_gray_light_gray"
+            android:textSize="@dimen/_10ssp"
+            app:layout_constraintBottom_toBottomOf="@id/tvPriceTitle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/tvPriceTitle"
+            app:layout_constraintTop_toTopOf="@id/tvPriceTitle" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

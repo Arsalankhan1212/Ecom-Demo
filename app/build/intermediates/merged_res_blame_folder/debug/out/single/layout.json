@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "com.ngen.ecom.app-mergeDebugResources-55:/layout/fragment_check_out.xml",
+        "source": "com.ngen.ecom.app-main-58:/layout/fragment_check_out.xml"
+    },
+    {
+        "merged": "com.ngen.ecom.app-mergeDebugResources-55:/layout/cart_item.xml",
+        "source": "com.ngen.ecom.app-main-58:/layout/cart_item.xml"
+    },
+    {
+        "merged": "com.ngen.ecom.app-mergeDebugResources-55:/layout/activity_main.xml",
+        "source": "com.ngen.ecom.app-main-58:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.ngen.ecom.app-mergeDebugResources-55:/layout/loading_item.xml",
+        "source": "com.ngen.ecom.app-main-58:/layout/loading_item.xml"
+    },
+    {
+        "merged": "com.ngen.ecom.app-mergeDebugResources-55:/layout/fragment_about_product.xml",
+        "source": "com.ngen.ecom.app-main-58:/layout/fragment_about_product.xml"
+    },
+    {
+        "merged": "com.ngen.ecom.app-mergeDebugResources-55:/layout/layout_full_screen_loading.xml",
+        "source": "com.ngen.ecom.app-main-58:/layout/layout_full_screen_loading.xml"
+    },
+    {
+        "merged": "com.ngen.ecom.app-mergeDebugResources-55:/layout/fragment_home.xml",
+        "source": "com.ngen.ecom.app-main-58:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.ngen.ecom.app-mergeDebugResources-55:/layout/review_item.xml",
+        "source": "com.ngen.ecom.app-main-58:/layout/review_item.xml"
+    },
+    {
+        "merged": "com.ngen.ecom.app-mergeDebugResources-55:/layout/fragment_add_payment_dialog.xml",
+        "source": "com.ngen.ecom.app-main-58:/layout/fragment_add_payment_dialog.xml"
+    },
+    {
+        "merged": "com.ngen.ecom.app-mergeDebugResources-55:/layout/fragment_add_shipping_dialog.xml",
+        "source": "com.ngen.ecom.app-main-58:/layout/fragment_add_shipping_dialog.xml"
+    },
+    {
+        "merged": "com.ngen.ecom.app-mergeDebugResources-55:/layout/fragment_product_detail.xml",
+        "source": "com.ngen.ecom.app-main-58:/layout/fragment_product_detail.xml"
+    },
+    {
+        "merged": "com.ngen.ecom.app-mergeDebugResources-55:/layout/fragment_product_rating.xml",
+        "source": "com.ngen.ecom.app-main-58:/layout/fragment_product_rating.xml"
+    },
+    {
+        "merged": "com.ngen.ecom.app-mergeDebugResources-55:/layout/layout_error.xml",
+        "source": "com.ngen.ecom.app-main-58:/layout/layout_error.xml"
+    },
+    {
+        "merged": "com.ngen.ecom.app-mergeDebugResources-55:/layout/product_item.xml",
+        "source": "com.ngen.ecom.app-main-58:/layout/product_item.xml"
+    },
+    {
+        "merged": "com.ngen.ecom.app-mergeDebugResources-55:/layout/fragment_cart.xml",
+        "source": "com.ngen.ecom.app-main-58:/layout/fragment_cart.xml"
+    }
+]

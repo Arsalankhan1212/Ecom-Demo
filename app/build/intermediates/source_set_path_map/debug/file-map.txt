@@ -1,0 +1,59 @@
+com.ngen.ecom.app-constraintlayout-2.1.4-0 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\0bbf0fb13385de3671957641c13f563f\transformed\constraintlayout-2.1.4\res
+com.ngen.ecom.app-jetified-activity-1.8.0-1 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\0ecae728d3cfaaed6c5d32769f3e7f9d\transformed\jetified-activity-1.8.0\res
+com.ngen.ecom.app-navigation-ui-ktx-2.7.7-2 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\181ac0d6544142648ed0277469832acc\transformed\navigation-ui-ktx-2.7.7\res
+com.ngen.ecom.app-navigation-common-ktx-2.7.7-3 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\19317bb8ec4ec72c85966665e9de98f1\transformed\navigation-common-ktx-2.7.7\res
+com.ngen.ecom.app-jetified-lifecycle-viewmodel-ktx-2.8.4-4 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\1d59722b125c571e5b8aa5cf1d5d5ee1\transformed\jetified-lifecycle-viewmodel-ktx-2.8.4\res
+com.ngen.ecom.app-room-runtime-2.6.1-5 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\2d9de14a5ba839744b0224b49450bad2\transformed\room-runtime-2.6.1\res
+com.ngen.ecom.app-navigation-ui-2.7.7-6 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\2f200872ef6344f8b399e4d5103f8a93\transformed\navigation-ui-2.7.7\res
+com.ngen.ecom.app-lifecycle-livedata-2.8.4-7 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\301b8cf4c3de65547bcc7854034cad73\transformed\lifecycle-livedata-2.8.4\res
+com.ngen.ecom.app-jetified-appcompat-resources-1.7.0-8 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\31f11a2c5e034f2d673d90a20aeb6377\transformed\jetified-appcompat-resources-1.7.0\res
+com.ngen.ecom.app-core-runtime-2.2.0-9 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\4424b6d4c6d535491d724e2a9806c780\transformed\core-runtime-2.2.0\res
+com.ngen.ecom.app-jetified-lifecycle-viewmodel-savedstate-2.8.4-10 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\4d974c5edfe61ed4af1c5d26a6295c8c\transformed\jetified-lifecycle-viewmodel-savedstate-2.8.4\res
+com.ngen.ecom.app-navigation-fragment-2.7.7-11 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\5cc6c3264b931365d0a9823826a04342\transformed\navigation-fragment-2.7.7\res
+com.ngen.ecom.app-appcompat-1.7.0-12 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\5d941d8e24db6275cec1cf68049e3bf1\transformed\appcompat-1.7.0\res
+com.ngen.ecom.app-navigation-runtime-2.7.7-13 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\5e69e81dbe10bd7f5c15a2248fa8e450\transformed\navigation-runtime-2.7.7\res
+com.ngen.ecom.app-recyclerview-1.1.0-14 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\679b8727dc75d6b55e4c613cc5f16041\transformed\recyclerview-1.1.0\res
+com.ngen.ecom.app-jetified-Android-SpinKit-1.4.0-15 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\6bb47209e350e6288582c0cd95528ce2\transformed\jetified-Android-SpinKit-1.4.0\res
+com.ngen.ecom.app-navigation-runtime-ktx-2.7.7-16 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\6f2c869aa8e8e746a16e4657ed27e5cc\transformed\navigation-runtime-ktx-2.7.7\res
+com.ngen.ecom.app-cardview-1.0.0-17 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\7ccdce309b9a39183aa810095cdeac14\transformed\cardview-1.0.0\res
+com.ngen.ecom.app-jetified-startup-runtime-1.1.1-18 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\7ef7e67359efdc908d114c6c305e87af\transformed\jetified-startup-runtime-1.1.1\res
+com.ngen.ecom.app-lifecycle-livedata-core-2.8.4-19 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\7f05d75cee525618a8512123de0455e5\transformed\lifecycle-livedata-core-2.8.4\res
+com.ngen.ecom.app-transition-1.5.0-20 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\81c5f6f5cc1df35b3147c00859d244de\transformed\transition-1.5.0\res
+com.ngen.ecom.app-jetified-savedstate-1.2.1-21 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\820e16d45a1a85b5b859c435e41f6f45\transformed\jetified-savedstate-1.2.1\res
+com.ngen.ecom.app-coordinatorlayout-1.1.0-22 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\85284149efc5a676540a2eab4cfecd69\transformed\coordinatorlayout-1.1.0\res
+com.ngen.ecom.app-sqlite-framework-2.4.0-23 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\87ba35926b54a0d0a3814e206b1960eb\transformed\sqlite-framework-2.4.0\res
+com.ngen.ecom.app-slidingpanelayout-1.2.0-24 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\8a58f3692a76af18143b9cb6d22f14a3\transformed\slidingpanelayout-1.2.0\res
+com.ngen.ecom.app-jetified-ssp-android-1.1.0-25 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\8ab5338418197f88abf6b675d32b90f5\transformed\jetified-ssp-android-1.1.0\res
+com.ngen.ecom.app-jetified-savedstate-ktx-1.2.1-26 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\8ea53e78a1dd5acf4127780d393a81b4\transformed\jetified-savedstate-ktx-1.2.1\res
+com.ngen.ecom.app-jetified-window-1.0.0-27 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\904d6fa500df61c0d207b63e50c482e6\transformed\jetified-window-1.0.0\res
+com.ngen.ecom.app-navigation-common-2.7.7-28 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\918b699df5ed9127977efca3a4efe857\transformed\navigation-common-2.7.7\res
+com.ngen.ecom.app-jetified-emoji2-views-helper-1.3.0-29 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\96550c6306e5087228177a91952286a8\transformed\jetified-emoji2-views-helper-1.3.0\res
+com.ngen.ecom.app-jetified-viewpager2-1.0.0-30 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\99cb8d212ed2a44eefeb46ee94d6fdf8\transformed\jetified-viewpager2-1.0.0\res
+com.ngen.ecom.app-material-1.12.0-31 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\9c092b8b18e58109e466da923be86909\transformed\material-1.12.0\res
+com.ngen.ecom.app-jetified-glide-4.13.0-32 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\a3773e0c213d550cf032bbfad8c98855\transformed\jetified-glide-4.13.0\res
+com.ngen.ecom.app-jetified-lifecycle-viewmodel-release-33 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\b45b10e2c065c5d1a0550259a31adfdd\transformed\jetified-lifecycle-viewmodel-release\res
+com.ngen.ecom.app-jetified-lifecycle-runtime-release-34 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\b5404b47eed75c9f582543747ad7121f\transformed\jetified-lifecycle-runtime-release\res
+com.ngen.ecom.app-jetified-fragment-ktx-1.6.2-35 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\be41f68b0d251bc85fd0ae8d17bd0236\transformed\jetified-fragment-ktx-1.6.2\res
+com.ngen.ecom.app-jetified-lifecycle-process-2.8.4-36 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\bed04d0b6859ebde70b756d5b264595a\transformed\jetified-lifecycle-process-2.8.4\res
+com.ngen.ecom.app-jetified-lifecycle-runtime-ktx-release-37 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\bed5b2bcd4dd0f2bec7c7fd4c96826a5\transformed\jetified-lifecycle-runtime-ktx-release\res
+com.ngen.ecom.app-drawerlayout-1.1.1-38 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\bfd8d73bab676b3c18edb12303516f98\transformed\drawerlayout-1.1.1\res
+com.ngen.ecom.app-jetified-emoji2-1.3.0-39 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\c3c597f0280d0a5c33a3017fc9494cab\transformed\jetified-emoji2-1.3.0\res
+com.ngen.ecom.app-jetified-activity-ktx-1.8.0-40 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\c92e67c235d2e6a90b72956ac1215c40\transformed\jetified-activity-ktx-1.8.0\res
+com.ngen.ecom.app-jetified-room-ktx-2.6.1-41 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\c9a376cdd8c5553cdc0257ba1adb9dff\transformed\jetified-room-ktx-2.6.1\res
+com.ngen.ecom.app-jetified-sdp-android-1.1.0-42 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\ce8b67c4780520af2c0f9fed8f1ec85f\transformed\jetified-sdp-android-1.1.0\res
+com.ngen.ecom.app-jetified-annotation-experimental-1.4.0-43 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\d08471c4bd1b316a5c572557f2ef6154\transformed\jetified-annotation-experimental-1.4.0\res
+com.ngen.ecom.app-fragment-1.6.2-44 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\d3b96f28150cd3e59d7815e92c1433e3\transformed\fragment-1.6.2\res
+com.ngen.ecom.app-jetified-profileinstaller-1.3.1-45 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\d749b98acbfcd358dd87fe5938584af1\transformed\jetified-profileinstaller-1.3.1\res
+com.ngen.ecom.app-sqlite-2.4.0-46 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\de62fa9cb6dc18a41ee7ded03913bc39\transformed\sqlite-2.4.0\res
+com.ngen.ecom.app-jetified-lifecycle-livedata-core-ktx-2.8.4-47 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\e32193af18b1ad29a3a784d6e2ef4d56\transformed\jetified-lifecycle-livedata-core-ktx-2.8.4\res
+com.ngen.ecom.app-navigation-fragment-ktx-2.7.7-48 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\f3441af2a91c68f1ce6adf692acfa27d\transformed\navigation-fragment-ktx-2.7.7\res
+com.ngen.ecom.app-core-1.13.1-49 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\f3d0fd93e71966a36a007eb614b69579\transformed\core-1.13.1\res
+com.ngen.ecom.app-jetified-MotionToast-1.4-50 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\f3fa2ac6b4d2c8848d0c2c32a31138d0\transformed\jetified-MotionToast-1.4\res
+com.ngen.ecom.app-jetified-core-ktx-1.13.1-51 C:\Program Files\Java\jdk-20\bin\caches\transforms-3\fe4169db87027b4300876458e195e558\transformed\jetified-core-ktx-1.13.1\res
+com.ngen.ecom.app-pngs-52 C:\Users\arsal\Downloads\Ecomm\app\build\generated\res\pngs\debug
+com.ngen.ecom.app-resValues-53 C:\Users\arsal\Downloads\Ecomm\app\build\generated\res\resValues\debug
+com.ngen.ecom.app-packageDebugResources-54 C:\Users\arsal\Downloads\Ecomm\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.ngen.ecom.app-packageDebugResources-55 C:\Users\arsal\Downloads\Ecomm\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.ngen.ecom.app-merged_res-56 C:\Users\arsal\Downloads\Ecomm\app\build\intermediates\merged_res\debug
+com.ngen.ecom.app-debug-57 C:\Users\arsal\Downloads\Ecomm\app\src\debug\res
+com.ngen.ecom.app-main-58 C:\Users\arsal\Downloads\Ecomm\app\src\main\res

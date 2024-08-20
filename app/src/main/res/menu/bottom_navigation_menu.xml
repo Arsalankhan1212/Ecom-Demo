@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/homeFragment"
+        android:checked="true"
+        android:icon="@drawable/ic_home_selector"
+        android:title="@string/str_home"/>
+
+    <item android:id="@+id/cartFragment"
+        android:icon="@drawable/ic_cart"
+        android:title="@string/str_cart"/>
+</menu>

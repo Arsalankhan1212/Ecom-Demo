@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="color_green">#2FC017</color>
+
+
+    <color name="color_white_only">#FFFFFFFF</color>
+    <color name="color_black_only">#FF000000</color>
+
+    <color name="color_black_light_gray">#FF000000</color>
+
+    <color name="color_light_gray_black">#F0F0F0</color>
+
+    <color name="color_product_detail_tab">#F7F7F7</color>
+    <color name="color_pd_detail_tab_icon">#9B9B9B</color>
+    <color name="color_white_dark_gray">#FFFFFFFF</color>
+    <color name="color_dark_gray_white">#9B9B9B</color>
+
+    <color name="color_switch_track">#BBBBBB</color>
+
+    <color name="color_social_txt">#FF000000</color>
+
+    <color name="color_product_item">#FFFFFFFF</color>
+    <color name="color_fav_oval">#FFFFFFFF</color>
+    <color name="color_dark_gray_light_gray">#9B9B9B</color>
+
+    <color name="color_dark_blue">#0635AD</color>
+    <color name="color_dark_blue_light_blue">#0635AD</color>
+
+    <color name="color_light_gray">#F0F0F0</color>
+    <color name="color_dark_gray_txt">#9B9B9B</color>
+
+    <color name="color_gray">#BBBBBB</color>
+    <color name="color_product_des_txt">#666666</color>
+    <color name="color_bg_search">#F1F1F1</color>
+    <color name="color_fav_bg">#F7F7F7</color>
+
+    <color name="color_menu_indicator">#fce4ec</color>
+    <color name="color_btn_orange">#f06292</color>
+    <color name="color_bage_orange">#f06292</color>
+    <color name="color_rating">#f06292</color>
+    <color name="color_badge">#DB3022</color>
+
+    <color name="color_ripple">#FF8FB5</color>
+    <color name="color_green_img_selector">#3FDC07</color>
+
+    <color name="color_img_slider_alpha_85">#DAFFFFFF</color>
+
+    <color name="color_map_toolbar">#51000000</color>
+
+    <color name="bg_tab_color">#FFFFFF</color>
+    <color name="color_tab_text">#BBBBBB</color>
+    <color name="color_tab_stroke">#EFEFEF</color>
+
+    <color name="color_spinner">#F1F1F1</color>
+    <color name="color_rating_bar">@color/color_dark_gray_txt</color>
+
+    <color name="color_customization_txt">#BCBCBC</color>
+    <color name="color_customization_tv_bg">#F3F3F3</color>
+
+    <color name="color_deep_gray">#999999</color>
+    <color name="color_lighter_gray">#F1F1F1</color>
+
+    <color name="color_back_arrow">@color/black</color>
+</resources>

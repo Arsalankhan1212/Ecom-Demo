@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="product_sources">
+        <item>Haraj</item>
+        <item>Noon</item>
+        <item>Aliexpress</item>
+        <item>Amazon.sa</item>
+        <item>Opensooq</item>
+        <item>Jarir</item>
+        <item>Extra</item>
+        <item>Alshaya</item>
+        <item>Eddy</item>
+        <item>Nahdionline</item>
+        <item>Namshi</item>
+        <item>Mercado Libre</item>
+        <item>Amazon.ae</item>
+        <item>Jazp</item>
+        <item>Ebay</item>
+        <item>Walmart</item>
+        <item>Target Corporation</item>
+        <item>Best Buy</item>
+        <item>Rakuten</item>
+        <item>Newegg</item>
+        <item>Carrefour</item>
+        <item>Cobone</item>
+        <item>Lulu Hypermarket</item>
+        <item>Ounass</item>
+        <item>Tamimi Markets</item>
+        <item>Ubuy</item>
+        <item>Xcite</item>
+        <item>Extrastores</item>
+        <item>Alibaba</item>
+        <item>Markavip</item>
+    </string-array>
+
+
+    <array name="initial_range_slider_values">
+        <item>50.0</item>
+        <item>5000.0</item>
+    </array>
+</resources>
